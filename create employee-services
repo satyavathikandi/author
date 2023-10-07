@@ -1,1 +1,11 @@
 
+spring. data source.url=jdbc:mysql://localhost:3306/department_db
+spring. data source.username=root
+spring. data source.password=3306
+
+spring. jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+spring. jpa. hibernate. ddl-auto=update
+server.port=8082
+spring.application.name=DEPARTMENT-MICROSERVICES
+eureka.instance.client.serverUrl.defaultZone=http://localhost:8761/eureka/
+
